@@ -1,0 +1,105 @@
+body {
+  background-color: #0E1442;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, #status {
+  font-family: 'Special Elite', cursive;
+  font-size: 48px;
+  padding-left: 20px;
+}
+
+table {
+  width:300px;
+}
+td {
+  width:100px;
+  height:100px;
+  text-align: center;
+  font-size:40px;
+  color: white;
+}
+.bottom {
+  border-bottom: solid white 1px;
+}
+.top {
+  border-top: solid white 1px;
+}
+.right {
+  border-right: solid white 1px;
+}
+.left {
+  border-left: solid white 1px;
+}
+.centered {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.btn {
+  text-align: center;
+  color:black;
+}
+.win {
+  color: orange;
+}
+#footer {
+  margin-top: 40px;
+}
+.nav {
+  margin:20px;
+}
+.navbar-toggle {
+  margin: 30px;
+}
+.navbar-toggle: hover {
+  background-color:#0E1442;
+}
+.icon-bar {
+  color:black;
+}
+.btn {
+  display:inline;
+}
+#footer {
+  margin-left:auto;
+  margin-right:auto;
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#footer li {
+  display: inline;
+}
+#status {
+  color: orange;
+  font-size: 40px;
+}
+
+#human, #comp {
+  font-size: 40px;
+}
+
+.btn {
+  border-radius: 50px;
+}
+
+label {
+  margin:10px;
+  letter-spacing: 5px;
+}
+
+form {
+  color: white;
+}
+input {
+  width: 40px;
+  color: black;
+}
+
+@media screen and (max-width:700px) {
+  h1 {
+    text-align: center;
+  }
+}

@@ -1,2 +1,23 @@
-# tictac
-Tic Tac Toe
+# Tic Tac Toe
+
+## Synopsis
+
+This app is a rendition of the classic game of Tic Tac Toe. You play against the computer AI. The AI is done using JavaScript / jQuery.
+
+The app is live at http://cabelin.com/tictac.
+
+![screenshot](http://cabelin.com/tictac/images/screenshot.jpg)
+
+## Instructions
+
+1. Click a cell to make your move
+2. Whoever gets 3 straight rows (diagonal, vertical or horizontal) first wins
+3. Try to outsmart the computer AI
+
+## Contributors
+
+Neptune Michael Cabelin
+
+## License
+
+MIT

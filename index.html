@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Tic Tac Toe Game</title>
+  <meta charset="UTF-8">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+  <link href='./css/style.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="row">
+      <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1 class="text-center"><strong>Tic Tac Toe</strong></h1>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://ncabelin.github.io" class="text-center">Home</a></li>
+            <li><a href="http://ncabelin.github.io/udresume" class="text-center">About</a></li>
+            <li><a href="mailto:ncabelin@gmail.com" class="text-center">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
+  <div class="container-fluid">
+  <table class="centered">
+    <tr>
+      <td value = 1 class="bottom right" id="one"></td>
+      <td value = 2 class="bottom" id="two"></td>
+      <td value = 3 class="bottom left" id="three"></td>
+    </tr>
+    <tr>
+      <td value = 4 class="bottom right" id="four"></td>
+      <td value = 5 class="bottom" id="five"></td>
+      <td value = 6 class="bottom left" id="six"></td>
+    </tr>
+    <tr>
+      <td value = 7 class="right" id="seven"></td>
+      <td value = 8 id="eight"></td>
+      <td value = 9 class="left" id="nine"></td>
+    </tr>
+    </div>
+  </table>
+    <ul id="footer">
+      <li><button class="btn btn-danger centered" id="reset">Reset Game</button>
+      <li><button class="btn btn-success centered" id="xPlay">Play as X</button>
+      <li><button class="btn btn-primary centered" id="oPlay">Play as O</button>
+    </ul>
+    <div class="row">
+      <div class="col-md-12 btn-group center-block text-center" role="group">
+        <form>
+          <label for="human">HUMAN</label>
+          <input readonly id="human" value=0>
+          <label for="comp">COMPUTER</label>
+          <input readonly id="comp" value=0>
+        </form>
+        <br><br>
+        <p id="status"></p>
+      </div>
+    </div>
+
+   <!-- jquery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <!-- bootstrap js -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
