@@ -94,8 +94,9 @@ form {
   color: white;
 }
 input {
-  width: 40px;
+  width: 60px;
   color: black;
+  padding-left: 10px;
 }
 
 @media screen and (max-width:700px) {
