@@ -6,7 +6,7 @@ This app is a rendition of the classic game of Tic Tac Toe. You play against the
 
 The app is live at http://cabelin.com/tictac.
 
-![screenshot](http://cabelin.com/tictac/images/screenshot.jpg)
+![screenshot](http://res.cloudinary.com/dd6kwd0zn/image/upload/v1499203807/screenshot-6_uxghfa.jpg)
 
 ## Instructions
 
